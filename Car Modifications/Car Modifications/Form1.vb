@@ -5,4 +5,11 @@
         f2.ShowDialog()
         Me.Show()
     End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Hide()
+        Dim f3 As New Form3
+        f3.ShowDialog()
+        Me.Show()
+    End Sub
 End Class

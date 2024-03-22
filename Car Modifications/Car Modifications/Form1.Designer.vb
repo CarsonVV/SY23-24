@@ -31,6 +31,7 @@ Partial Class Form1
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -110,10 +111,19 @@ Partial Class Form1
         '
         Me.Button1.Location = New System.Drawing.Point(257, 374)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(269, 23)
+        Me.Button1.Size = New System.Drawing.Size(126, 23)
         Me.Button1.TabIndex = 7
-        Me.Button1.Text = "Inventory"
+        Me.Button1.Text = "Wheel Inventory "
         Me.Button1.UseVisualStyleBackColor = True
+        '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(389, 374)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(137, 23)
+        Me.Button2.TabIndex = 8
+        Me.Button2.Text = "Wrap Inventory"
+        Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
@@ -121,6 +131,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
@@ -145,4 +156,5 @@ Partial Class Form1
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents Button1 As Button
+    Friend WithEvents Button2 As Button
 End Class
