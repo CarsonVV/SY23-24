@@ -46,15 +46,16 @@ Partial Class Form3
         '
         'PictureBox1
         '
-        Me.PictureBox1.Location = New System.Drawing.Point(198, 120)
+        Me.PictureBox1.Location = New System.Drawing.Point(60, 94)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(100, 50)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
         'PictureBox2
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(333, 120)
+        Me.PictureBox2.Location = New System.Drawing.Point(333, 94)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox2.TabIndex = 1
@@ -62,7 +63,7 @@ Partial Class Form3
         '
         'PictureBox3
         '
-        Me.PictureBox3.Location = New System.Drawing.Point(471, 120)
+        Me.PictureBox3.Location = New System.Drawing.Point(589, 94)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox3.TabIndex = 2
@@ -70,7 +71,7 @@ Partial Class Form3
         '
         'PictureBox4
         '
-        Me.PictureBox4.Location = New System.Drawing.Point(198, 195)
+        Me.PictureBox4.Location = New System.Drawing.Point(60, 225)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox4.TabIndex = 3
@@ -78,7 +79,7 @@ Partial Class Form3
         '
         'PictureBox5
         '
-        Me.PictureBox5.Location = New System.Drawing.Point(333, 195)
+        Me.PictureBox5.Location = New System.Drawing.Point(333, 225)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox5.TabIndex = 4
@@ -86,7 +87,7 @@ Partial Class Form3
         '
         'PictureBox6
         '
-        Me.PictureBox6.Location = New System.Drawing.Point(471, 195)
+        Me.PictureBox6.Location = New System.Drawing.Point(589, 225)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox6.TabIndex = 5
@@ -94,7 +95,7 @@ Partial Class Form3
         '
         'PictureBox7
         '
-        Me.PictureBox7.Location = New System.Drawing.Point(198, 285)
+        Me.PictureBox7.Location = New System.Drawing.Point(60, 347)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox7.TabIndex = 6
@@ -102,7 +103,7 @@ Partial Class Form3
         '
         'PictureBox8
         '
-        Me.PictureBox8.Location = New System.Drawing.Point(333, 285)
+        Me.PictureBox8.Location = New System.Drawing.Point(333, 347)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox8.TabIndex = 7
@@ -110,7 +111,7 @@ Partial Class Form3
         '
         'PictureBox9
         '
-        Me.PictureBox9.Location = New System.Drawing.Point(471, 285)
+        Me.PictureBox9.Location = New System.Drawing.Point(589, 347)
         Me.PictureBox9.Name = "PictureBox9"
         Me.PictureBox9.Size = New System.Drawing.Size(100, 50)
         Me.PictureBox9.TabIndex = 8
@@ -122,7 +123,7 @@ Partial Class Form3
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 19.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(326, 18)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(115, 39)
+        Me.Label1.Size = New System.Drawing.Size(112, 38)
         Me.Label1.TabIndex = 9
         Me.Label1.Text = "Wraps"
         '
