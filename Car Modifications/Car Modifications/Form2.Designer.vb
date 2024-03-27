@@ -64,7 +64,7 @@ Partial Class Form2
         'PictureBox2
         '
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(115, 293)
+        Me.PictureBox2.Location = New System.Drawing.Point(118, 293)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(198, 141)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -74,7 +74,7 @@ Partial Class Form2
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(115, 437)
+        Me.Label3.Location = New System.Drawing.Point(118, 437)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(200, 16)
         Me.Label3.TabIndex = 5
@@ -95,7 +95,7 @@ Partial Class Form2
         Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(426, 93)
         Me.PictureBox3.Name = "PictureBox3"
-        Me.PictureBox3.Size = New System.Drawing.Size(198, 141)
+        Me.PictureBox3.Size = New System.Drawing.Size(195, 141)
         Me.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox3.TabIndex = 9
         Me.PictureBox3.TabStop = False
@@ -104,7 +104,7 @@ Partial Class Form2
         '
         Me.Label6.AutoSize = True
         Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.Location = New System.Drawing.Point(423, 237)
+        Me.Label6.Location = New System.Drawing.Point(428, 237)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(193, 18)
         Me.Label6.TabIndex = 10
@@ -115,7 +115,7 @@ Partial Class Form2
         Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(423, 293)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(198, 141)
+        Me.PictureBox4.Size = New System.Drawing.Size(209, 141)
         Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox4.TabIndex = 13
         Me.PictureBox4.TabStop = False
@@ -142,14 +142,14 @@ Partial Class Form2
         '
         Me.Button2.Location = New System.Drawing.Point(426, 258)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(190, 23)
+        Me.Button2.Size = New System.Drawing.Size(195, 23)
         Me.Button2.TabIndex = 18
         Me.Button2.Text = "$14,400"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(115, 456)
+        Me.Button3.Location = New System.Drawing.Point(118, 456)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(200, 23)
         Me.Button3.TabIndex = 19
@@ -158,9 +158,9 @@ Partial Class Form2
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(423, 462)
+        Me.Button4.Location = New System.Drawing.Point(423, 456)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(201, 23)
+        Me.Button4.Size = New System.Drawing.Size(209, 23)
         Me.Button4.TabIndex = 20
         Me.Button4.Text = "$8,500"
         Me.Button4.UseVisualStyleBackColor = True

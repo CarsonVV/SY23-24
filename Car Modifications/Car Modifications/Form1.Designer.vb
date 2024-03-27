@@ -64,7 +64,7 @@ Partial Class Form1
         Me.TextBox1.Multiline = True
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(185, 239)
+        Me.TextBox1.Size = New System.Drawing.Size(185, 226)
         Me.TextBox1.TabIndex = 2
         Me.TextBox1.Text = resources.GetString("TextBox1.Text")
         '
@@ -132,7 +132,7 @@ Partial Class Form1
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(269, 23)
         Me.Button3.TabIndex = 9
-        Me.Button3.Text = "Parts"
+        Me.Button3.Text = "BodyKits"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Form1
