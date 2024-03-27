@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form3
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form3
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form3))
         Me.Label1 = New System.Windows.Forms.Label()
@@ -44,9 +44,8 @@ Partial Class Form3
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TotalTB = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -257,13 +256,13 @@ Partial Class Form3
         Me.Button16.TabIndex = 37
         Me.Button16.UseVisualStyleBackColor = False
         '
-        'TextBox1
+        'TotalTB
         '
-        Me.TextBox1.Location = New System.Drawing.Point(688, 419)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.ReadOnly = True
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 38
+        Me.TotalTB.Location = New System.Drawing.Point(688, 419)
+        Me.TotalTB.Name = "TotalTB"
+        Me.TotalTB.ReadOnly = True
+        Me.TotalTB.Size = New System.Drawing.Size(100, 22)
+        Me.TotalTB.TabIndex = 38
         '
         'Label6
         '
@@ -274,24 +273,14 @@ Partial Class Form3
         Me.Label6.TabIndex = 39
         Me.Label6.Text = "Total cost"
         '
-        'ListBox1
-        '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(688, 147)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(109, 180)
-        Me.ListBox1.TabIndex = 40
-        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 477)
-        Me.Controls.Add(Me.ListBox1)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.TotalTB)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -340,7 +329,6 @@ Partial Class Form3
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TotalTB As TextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents ListBox1 As ListBox
 End Class
