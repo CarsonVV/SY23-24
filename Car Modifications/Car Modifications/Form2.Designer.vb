@@ -36,7 +36,7 @@ Partial Class Form2
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Total = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -167,12 +167,12 @@ Partial Class Form2
         Me.Button4.Text = "$8,500"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'Total
         '
-        Me.TextBox1.Location = New System.Drawing.Point(666, 330)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 21
+        Me.Total.Location = New System.Drawing.Point(666, 330)
+        Me.Total.Name = "Total"
+        Me.Total.Size = New System.Drawing.Size(100, 22)
+        Me.Total.TabIndex = 21
         '
         'Label2
         '
@@ -190,7 +190,7 @@ Partial Class Form2
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 497)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Total)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -228,6 +228,6 @@ Partial Class Form2
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Total As TextBox
     Friend WithEvents Label2 As Label
 End Class

@@ -36,7 +36,7 @@ Partial Class Form4
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.Total = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -172,12 +172,12 @@ Partial Class Form4
         Me.Button6.Text = "LAMBORGHINI AVENTADOR MANSORY CONVERSION $280,000"
         Me.Button6.UseVisualStyleBackColor = True
         '
-        'TextBox1
+        'Total
         '
-        Me.TextBox1.Location = New System.Drawing.Point(755, 399)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 22
+        Me.Total.Location = New System.Drawing.Point(755, 399)
+        Me.Total.Name = "Total"
+        Me.Total.Size = New System.Drawing.Size(100, 22)
+        Me.Total.TabIndex = 22
         '
         'Label2
         '
@@ -195,7 +195,7 @@ Partial Class Form4
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(891, 524)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
+        Me.Controls.Add(Me.Total)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -235,6 +235,6 @@ Partial Class Form4
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents Total As TextBox
     Friend WithEvents Label2 As Label
 End Class
