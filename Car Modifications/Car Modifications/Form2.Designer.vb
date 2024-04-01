@@ -177,11 +177,11 @@ Partial Class Form2
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(700, 289)
+        Me.Label2.Location = New System.Drawing.Point(688, 302)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 16)
+        Me.Label2.Size = New System.Drawing.Size(34, 16)
         Me.Label2.TabIndex = 22
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Cost"
         '
         'Form2
         '

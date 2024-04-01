@@ -268,9 +268,9 @@ Partial Class Form3
         Me.Label6.AutoSize = True
         Me.Label6.Location = New System.Drawing.Point(704, 365)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(48, 16)
+        Me.Label6.Size = New System.Drawing.Size(34, 16)
         Me.Label6.TabIndex = 40
-        Me.Label6.Text = "Label6"
+        Me.Label6.Text = "Cost"
         '
         'Form3
         '

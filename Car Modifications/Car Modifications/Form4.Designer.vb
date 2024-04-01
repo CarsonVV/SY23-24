@@ -174,7 +174,7 @@ Partial Class Form4
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(763, 403)
+        Me.TextBox1.Location = New System.Drawing.Point(755, 399)
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(100, 22)
         Me.TextBox1.TabIndex = 22
@@ -184,9 +184,9 @@ Partial Class Form4
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(786, 365)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(48, 16)
+        Me.Label2.Size = New System.Drawing.Size(34, 16)
         Me.Label2.TabIndex = 23
-        Me.Label2.Text = "Label2"
+        Me.Label2.Text = "Cost"
         '
         'Form4
         '
