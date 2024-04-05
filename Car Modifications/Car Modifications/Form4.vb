@@ -24,8 +24,6 @@ Public Class Form4
     Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         Total.Text = "$250,000"
     End Sub
+End Class
 
-﻿Public Class Form4
-    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
 
-    End Sub
