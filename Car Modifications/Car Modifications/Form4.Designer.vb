@@ -38,7 +38,6 @@ Partial Class Form4
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.total = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -175,13 +174,6 @@ Partial Class Form4
         Me.Button6.Text = "LAMBORGHINI AVENTADOR MANSORY CONVERSION $280,000"
         Me.Button6.UseVisualStyleBackColor = True
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(755, 399)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 22
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -193,7 +185,7 @@ Partial Class Form4
         '
         'total
         '
-        Me.total.Location = New System.Drawing.Point(779, 211)
+        Me.total.Location = New System.Drawing.Point(755, 402)
         Me.total.Name = "total"
         Me.total.Size = New System.Drawing.Size(100, 22)
         Me.total.TabIndex = 24
@@ -206,7 +198,6 @@ Partial Class Form4
         Me.ClientSize = New System.Drawing.Size(891, 524)
         Me.Controls.Add(Me.total)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
@@ -246,7 +237,6 @@ Partial Class Form4
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents total As TextBox
 End Class

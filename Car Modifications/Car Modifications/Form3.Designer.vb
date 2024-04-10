@@ -44,8 +44,8 @@ Partial Class Form3
         Me.Button14 = New System.Windows.Forms.Button()
         Me.Button15 = New System.Windows.Forms.Button()
         Me.Button16 = New System.Windows.Forms.Button()
-        Me.MaskedTextBox1 = New System.Windows.Forms.MaskedTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
+        Me.Total = New System.Windows.Forms.TextBox()
         Me.SuspendLayout()
         '
         'Label1
@@ -256,13 +256,6 @@ Partial Class Form3
         Me.Button16.TabIndex = 37
         Me.Button16.UseVisualStyleBackColor = False
         '
-        'MaskedTextBox1
-        '
-        Me.MaskedTextBox1.Location = New System.Drawing.Point(685, 401)
-        Me.MaskedTextBox1.Name = "MaskedTextBox1"
-        Me.MaskedTextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.MaskedTextBox1.TabIndex = 39
-        '
         'Label6
         '
         Me.Label6.AutoSize = True
@@ -272,14 +265,21 @@ Partial Class Form3
         Me.Label6.TabIndex = 40
         Me.Label6.Text = "Cost"
         '
+        'Total
+        '
+        Me.Total.Location = New System.Drawing.Point(688, 408)
+        Me.Total.Name = "Total"
+        Me.Total.Size = New System.Drawing.Size(100, 22)
+        Me.Total.TabIndex = 41
+        '
         'Form3
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(800, 477)
+        Me.Controls.Add(Me.Total)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.MaskedTextBox1)
         Me.Controls.Add(Me.Button16)
         Me.Controls.Add(Me.Button15)
         Me.Controls.Add(Me.Button14)
@@ -328,6 +328,6 @@ Partial Class Form3
     Friend WithEvents Button14 As Button
     Friend WithEvents Button15 As Button
     Friend WithEvents Button16 As Button
-    Friend WithEvents MaskedTextBox1 As MaskedTextBox
     Friend WithEvents Label6 As Label
+    Friend WithEvents Total As TextBox
 End Class

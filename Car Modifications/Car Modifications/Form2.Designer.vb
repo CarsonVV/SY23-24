@@ -36,7 +36,6 @@ Partial Class Form2
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.total = New System.Windows.Forms.TextBox()
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
@@ -169,13 +168,6 @@ Partial Class Form2
         Me.Button4.Text = "$8,500"
         Me.Button4.UseVisualStyleBackColor = True
         '
-        'TextBox1
-        '
-        Me.TextBox1.Location = New System.Drawing.Point(666, 330)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 22)
-        Me.TextBox1.TabIndex = 21
-        '
         'Label2
         '
         Me.Label2.AutoSize = True
@@ -187,7 +179,7 @@ Partial Class Form2
         '
         'total
         '
-        Me.total.Location = New System.Drawing.Point(661, 141)
+        Me.total.Location = New System.Drawing.Point(661, 345)
         Me.total.Name = "total"
         Me.total.Size = New System.Drawing.Size(100, 22)
         Me.total.TabIndex = 23
@@ -196,7 +188,7 @@ Partial Class Form2
         '
         Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(211, 32)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(61, 4)
         '
         'Form2
         '
@@ -206,7 +198,6 @@ Partial Class Form2
         Me.ClientSize = New System.Drawing.Size(800, 497)
         Me.Controls.Add(Me.total)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
@@ -244,7 +235,6 @@ Partial Class Form2
     Friend WithEvents Button2 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button4 As Button
-    Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label2 As Label
     Friend WithEvents total As TextBox
     Friend WithEvents ContextMenuStrip1 As ContextMenuStrip
